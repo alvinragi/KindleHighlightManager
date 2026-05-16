@@ -1,6 +1,5 @@
 from dataclasses import dataclass
-from typing import Optional
-
+from datetime import datetime
 
 @dataclass
 class Clipping:
@@ -8,4 +7,4 @@ class Clipping:
     author: str
     content: str
     page_or_location: str
-    datetime: str
+    datetime: datetime
